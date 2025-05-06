@@ -9,3 +9,7 @@ def bemvindo():
 def resultado(n1, n2):
     soma = int(n1) + int(n2)
     return f'a soma entre esses dois números é: {str(soma)}'
+
+# @app.route('/magic/<palavra>')
+# def mostrar(palavra):
+#     return palavra
